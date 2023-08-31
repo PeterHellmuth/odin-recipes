@@ -3,6 +3,12 @@
     text-align: center;
 }
 
+p{
+    width: 25%;
+    margin: 0 auto;
+    text-align: left;
+}
+
 h1 {
     color: red;  
 }
@@ -14,11 +20,18 @@ h2 {
 
 ol, ul {
     list-style-position: inside;
-    text-align: left;
+
 }
 
 li{
+    width: 50%;
+    margin: 0 auto;
     text-align: left;
+    color: red;
+}
+
+span {
+    color: black;
 }
 
 ol {
@@ -26,14 +39,13 @@ ol {
 }
 
 .center{
-   display: flex;
-   flex-direction: column;
- 
    width: 50%;
    margin: 0 auto;
 }
 
 img {
+    width: 25%;
+    height: auto;
     animation: fadeIn ease 7s;
 }
 
