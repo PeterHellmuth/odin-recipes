@@ -1,0 +1,43 @@
+*{
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+}
+
+h1 {
+    color: red;  
+}
+
+
+h2 {
+    color: rgb(179, 116, 0);
+}
+
+ol, ul {
+    list-style-position: inside;
+    text-align: left;
+}
+
+li{
+    text-align: left;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+.center{
+   display: flex;
+   flex-direction: column;
+ 
+   width: 50%;
+   margin: 0 auto;
+}
+
+img {
+    animation: fadeIn ease 7s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0.2;}
+    100% {opacity:1;}
+  }
