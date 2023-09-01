@@ -1,6 +1,11 @@
+:root {
+    --lightGrey: rgb(240, 240, 240);
+  }
+  
 *{
-    background-color: rgb(240, 240, 240);
+    background-color: var(--lightGrey);
 }
+
 
 p{
 
@@ -28,6 +33,10 @@ li{
     color: red;
 }
 
+.invisible {
+    color: var(--lightGrey);
+}
+
 span {
     color: black;
 }
@@ -38,7 +47,7 @@ ol {
 
 .container{
     display: flex;
-    max-width: 800px;
+    max-width: 500px;
     flex-direction:column;
     align-items: center;
     margin: 0 auto;
@@ -51,8 +60,45 @@ ol {
     width: 75%;
 }
 
+.flexLink{
+    display: flex;
+    flex-direction: column;
+}
+
 img {
+    max-width: 500px;
+    height: auto;
     animation: fadeIn ease 7s;
+}
+
+
+
+a {
+    font-size: 1.5em;
+}
+a:visited {
+    color: orange;
+}
+a:hover{
+    color: red;
+}
+
+a:link{
+    color: darkblue;
+}
+
+.linkImage{
+    height: 100px;
+    width: auto;
+    margin: auto 0;
+}
+
+.linkList{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
 }
 
 @keyframes fadeIn {
