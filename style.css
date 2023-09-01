@@ -67,7 +67,7 @@ ol {
 }
 
 img {
-    max-width: 500px;
+    max-width: 95%;
     height: auto;
     animation: fadeIn ease 7s;
 }
@@ -78,7 +78,7 @@ a {
     font-size: 1.5em;
 }
 a:visited {
-    color: orange;
+    color: darkblue;
 }
 a:hover{
     color: red;
