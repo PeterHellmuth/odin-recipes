@@ -75,7 +75,7 @@ img {
 
 
 a {
-    font-size: 1.5em;
+    font-size: 20px;
 }
 a:visited {
     color: darkblue;
@@ -89,7 +89,7 @@ a:link{
 }
 
 .linkImage{
-    height: 100px;
+    height: 100%;
     width: auto;
     margin: auto 0;
 }
